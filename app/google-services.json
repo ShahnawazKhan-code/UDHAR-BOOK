@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "944966931856",
+    "project_id": "udhar-book-ede3e",
+    "storage_bucket": "udhar-book-ede3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944966931856:android:96d61b065c72569fbf8f15",
+        "android_client_info": {
+          "package_name": "com.example.udharbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944966931856-b07dv3b0g7hfnu3m6bi3ha4s3m3rvbnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmP5UZroPvANUHeHiOH4CY1L9rstNf4RU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944966931856-b07dv3b0g7hfnu3m6bi3ha4s3m3rvbnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

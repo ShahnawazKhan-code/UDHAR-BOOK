@@ -36,14 +36,14 @@
             android:paddingBottom="10dp"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
-            app:layout_constraintEnd_toEndOf="@+id/inputemail"
+            app:layout_constraintEnd_toEndOf="@+id/loginputemail"
             app:layout_constraintHorizontal_bias="0.344"
-            app:layout_constraintStart_toStartOf="@+id/inputemail"
-            app:layout_constraintTop_toBottomOf="@+id/inputemail"
+            app:layout_constraintStart_toStartOf="@+id/loginputemail"
+            app:layout_constraintTop_toBottomOf="@+id/loginputemail"
             tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
-            android:id="@+id/inputemail"
+            android:id="@+id/loginputemail"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -95,7 +95,7 @@
             app:layout_constraintTop_toBottomOf="@+id/inputlogin_password" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button"
+            android:id="@+id/login_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
@@ -114,10 +114,10 @@
             android:gravity="center"
             android:orientation="horizontal"
             android:textAlignment="center"
-            app:layout_constraintEnd_toEndOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="@+id/login_button"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/button"
-            app:layout_constraintTop_toBottomOf="@+id/button">
+            app:layout_constraintStart_toStartOf="@+id/login_button"
+            app:layout_constraintTop_toBottomOf="@+id/login_button">
 
             <TextView
                 android:layout_width="wrap_content"
