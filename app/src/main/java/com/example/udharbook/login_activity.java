@@ -14,6 +14,9 @@ public class login_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         TextView btn=findViewById(R.id.textviewSignUp);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
